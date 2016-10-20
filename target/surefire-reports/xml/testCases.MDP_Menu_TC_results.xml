@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SafariTest"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="15.173">
+  <properties />
+  
+  
+            <testcase name="verifyMenu" time="15.173" classname="testCases.MDP_Menu_TC" />
+      
+</testsuite>

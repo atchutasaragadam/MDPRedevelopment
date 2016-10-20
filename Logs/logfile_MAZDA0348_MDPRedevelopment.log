@@ -1,0 +1,12 @@
+2016-Sep-07 09:22:08,207 INFO  [MDP_MyCustomisedLogs] Launching Browser < Safari > 
+2016-Sep-07 09:22:10,178 INFO  [MDP_MyCustomisedLogs] New Safari driver instantiated 
+2016-Sep-07 09:22:10,189 INFO  [MDP_MyCustomisedLogs] ********************************************************************************** 
+2016-Sep-07 09:22:10,189 INFO  [MDP_MyCustomisedLogs] ********************************************************************************** 
+2016-Sep-07 09:22:10,189 INFO  [MDP_MyCustomisedLogs] $$$$$$$$$$$     Starts executing Test case ID        verifyLinksCampaigns          $$$$$$$$$$$$$ 
+2016-Sep-07 09:22:10,189 INFO  [MDP_MyCustomisedLogs] ********************************************************************************** 
+2016-Sep-07 09:22:10,189 INFO  [MDP_MyCustomisedLogs] ********************************************************************************** 
+2016-Sep-07 09:22:10,672 INFO  [MDP_MyCustomisedLogs] ********************************************************************************** 
+2016-Sep-07 09:22:10,672 INFO  [MDP_MyCustomisedLogs] ********************************************************************************** 
+2016-Sep-07 09:22:10,672 INFO  [MDP_MyCustomisedLogs] $$$$$$$$$$$     Starts executing Test case ID        TC_HomePage          $$$$$$$$$$$$$ 
+2016-Sep-07 09:22:10,672 INFO  [MDP_MyCustomisedLogs] ********************************************************************************** 
+2016-Sep-07 09:22:10,672 INFO  [MDP_MyCustomisedLogs] ********************************************************************************** 

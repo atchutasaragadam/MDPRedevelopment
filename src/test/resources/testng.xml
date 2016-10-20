@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="MAZDA_MAZD0348_Suite">
+
+	<!-- <parameter name="pdfngreport-properties" value="/Volumes/Users/cheaus/Documents/Automation/AutomationProjects/MAZDA/MAZDA0348_MDP/MDPRedevelopment/src/test/java/utility/pdfngreport.properties" 
+		/> -->
+
+	<listeners>
+		<!-- <listener class-name="com.uttesh.pdfngreport.PDFReportListener" /> -->
+		<listener class-name="utility.Listener" />
+
+	</listeners>
+
+	<test name="SafariTest" allow-return-values="true">
+		<parameter name="browser" value="Safari" />
+		<classes>
+			<class name="testCases.MDP_FindAllLinks_TC">
+				<methods>
+					<include name="verify_LinksCampaigns" />
+				</methods>
+			</class>
+
+			<class name="testCases.MDP_VerifyContentInAPage_TC">
+				<methods>
+					<include name="verify_Content"></include>
+				</methods>
+			</class>
+
+			<class name="testCases.MDP_Menu_TC">
+				<methods>
+					<include name="verify_Menu"></include>
+				</methods>
+			</class>
+
+			<class name="testCases.MDP_PostCodePopUp_TC">
+				<methods>
+					<include name="verify_PostCodePopupPresence" />
+					<include name="verify_ClosePostCodePopUp" />
+					<include name="verifyPostCodePopUp" />
+					<include name="verify_getCookiePostCode" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	 <test name="ChromeTest">
+		<parameter name="browser" value="Chrome" />
+
+		<classes>
+			<class name="testCases.MDP_FindAllLinks_TC">
+				<methods>
+					<include name="verify_LinksCampaigns" />
+				</methods>
+			</class>
+
+			<class name="testCases.MDP_VerifyContentInAPage_TC">
+				<methods>
+					<include name="verify_Content"></include>
+				</methods>
+			</class>
+
+			<class name="testCases.MDP_Menu_TC">
+				<methods>
+					<include name="verify_Menu"></include>
+				</methods>
+			</class>
+
+			<class name="testCases.MDP_PostCodePopUp_TC">
+				<methods>
+					<include name="verify_PostCodePopupPresence" />
+					<include name="verify_ClosePostCodePopUp" />
+					<include name="verifyPostCodePopUp" />
+					<include name="verify_getCookiePostCode" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<test name="FirefoxTest">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="testCases.MDP_FindAllLinks_TC">
+				<methods>
+					<include name="verify_LinksCampaigns" />
+				</methods>
+			</class>
+
+			<class name="testCases.MDP_VerifyContentInAPage_TC">
+				<methods>
+					<include name="verify_Content"></include>
+				</methods>
+			</class>
+
+			<class name="testCases.MDP_Menu_TC">
+				<methods>
+					<include name="verify_Menu"></include>
+				</methods>
+			</class>
+
+			<class name="testCases.MDP_PostCodePopUp_TC">
+				<methods>
+					<include name="verify_PostCodePopupPresence" />
+					<include name="verify_ClosePostCodePopUp" />
+					<include name="verifyPostCodePopUp" />
+					<include name="verify_getCookiePostCode" />
+				</methods>
+			</class>
+		</classes>
+
+	</test>
+	<test name="browser-stack-Win-Edge-13" allow-return-values="true">
+		<parameter name="browser" value="browser-stack-Win-Edge-13" />
+		<classes>
+			<class name="testCases.MDP_FindAllLinks_TC">
+				<methods>
+					<include name="verify_LinksCampaigns" />
+				</methods>
+			</class>
+
+			<class name="testCases.MDP_VerifyContentInAPage_TC">
+				<methods>
+					<include name="verify_Content"></include>
+				</methods>
+			</class>
+
+			<class name="testCases.MDP_Menu_TC">
+				<methods>
+					<include name="verify_Menu"></include>
+				</methods>
+			</class>
+
+			<class name="testCases.MDP_PostCodePopUp_TC">
+				<methods>
+					<include name="verify_PostCodePopupPresence" />
+					<include name="verify_ClosePostCodePopUp" />
+					<include name="verifyPostCodePopUp" />
+					<include name="verify_getCookiePostCode" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="browser-stack-Android-Samsung-S5 Mini"
+		allow-return-values="true">
+		<parameter name="browser" value="browser-stack-Android-Samsung-S5 Mini" />
+		<classes>
+			<class name="testCases.MDP_FindAllLinks_TC">
+				<methods>
+					<include name="verify_LinksCampaigns" />
+				</methods>
+			</class>
+
+			<class name="testCases.MDP_VerifyContentInAPage_TC">
+				<methods>
+					<include name="verify_Content"></include>
+				</methods>
+			</class>
+
+			<class name="testCases.MDP_Menu_TC">
+				<methods>
+					<include name="verify_Menu"></include>
+				</methods>
+			</class>
+
+			<class name="testCases.MDP_PostCodePopUp_TC">
+				<methods>
+					<include name="verify_PostCodePopupPresence" />
+					<include name="verify_ClosePostCodePopUp" />
+					<include name="verifyPostCodePopUp" />
+					<include name="verify_getCookiePostCode" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="selenium-grid-win10-MSEdge">
+		<parameter name="browser" value="selenium-grid-win10-MSEdge" />
+		<classes>
+			<class name="testCases.MDP_FindAllLinks_TC">
+				<methods>
+					<include name="verify_LinksCampaigns" />
+				</methods>
+			</class>
+
+			<class name="testCases.MDP_VerifyContentInAPage_TC">
+				<methods>
+					<include name="verify_Content"></include>
+				</methods>
+			</class>
+
+			<class name="testCases.MDP_Menu_TC">
+				<methods>
+					<include name="verify_Menu"></include>
+				</methods>
+			</class>
+
+			<class name="testCases.MDP_PostCodePopUp_TC">
+				<methods>
+					<include name="verify_PostCodePopupPresence" />
+					<include name="verify_ClosePostCodePopUp" />
+					<include name="verifyPostCodePopUp" />
+					<include name="verify_getCookiePostCode" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="selenium-grid-win10-IE11">
+		<parameter name="browser" value="selenium-grid-win10-IE" />
+		<classes>
+			<class name="testCases.MDP_FindAllLinks_TC">
+				<methods>
+					<include name="verify_LinksCampaigns" />
+				</methods>
+			</class>
+
+			<class name="testCases.MDP_VerifyContentInAPage_TC">
+				<methods>
+					<include name="verify_Content"></include>
+				</methods>
+			</class>
+
+			<class name="testCases.MDP_Menu_TC">
+				<methods>
+					<include name="verify_Menu"></include>
+				</methods>
+			</class>
+
+			<class name="testCases.MDP_PostCodePopUp_TC">
+				<methods>
+					<include name="verify_PostCodePopupPresence" />
+					<include name="verify_ClosePostCodePopUp" />
+					<include name="verifyPostCodePopUp" />
+					<include name="verify_getCookiePostCode" />
+				</methods>
+			</class>
+		</classes>  
+	</test>   
+
+</suite> <!-- Suite -->
